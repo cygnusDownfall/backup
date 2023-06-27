@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F86C9256-99AE-4958-B73F-1096A08D4C1C}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F86C9256-99AE-4958-B73F-1096A08D4C1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="moving" ID="{1A54A314-4133-41B6-982D-C294763E3AEC}">
+					<ChildrenList>
+						<Action Name="" ID="{5B8A44D4-1A3D-4149-8CDA-4836756C7B1C}" ShortID="250744016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stepSound" ID="{82658526-096D-4372-87D3-F70FD6C4063E}" WorkUnitID="{66F42556-69D7-421E-8609-D948804F32AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="jumping" ID="{A600FB56-06C7-42B4-9112-81102461BEDA}">
+					<ChildrenList>
+						<Action Name="" ID="{C326920C-E4DA-4A8E-B1E0-5878C70BDE39}" ShortID="367291416">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{2AC8528D-096C-4CC1-8A9C-6482C6DC25A7}" ShortID="668413731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jumpLoud" ID="{4121718E-FC44-4EA5-81B4-4D9B9089CB1F}" WorkUnitID="{66F42556-69D7-421E-8609-D948804F32AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2649703675	moving			\Default Work Unit\moving	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	337153539	jumpLoud	F:\MWSPr\slime\soundSys\.cache\Android\SFX\Tieng-giot-nuoc-www_tiengdong_com_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jumpLoud		106080
+

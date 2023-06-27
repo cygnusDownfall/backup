@@ -1,0 +1,109 @@
+{
+    "name": "inputAsset",
+    "maps": [
+        {
+            "name": "player",
+            "id": "4d3a10ee-3235-4864-96a2-7520c3778b29",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "b1077a6f-8154-4676-8c58-bdaf6170375d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "swallow",
+                    "type": "Button",
+                    "id": "32442e38-90c6-48be-8060-c2ad206671e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7dcc26ef-33c1-4ba0-9c2b-979c025ea20c",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "and",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84026e39-b4c9-4186-8ff8-64d1f805e8a9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "swallow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "b000433d-f1f8-447d-ab1a-78aba55e7beb",
+            "actions": [
+                {
+                    "name": "changeSkin",
+                    "type": "Button",
+                    "id": "f3f5a9f3-cde8-4561-b44b-9f89a5e77a9e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "40b13340-c333-468e-a84a-61b5cac50219",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "and",
+                    "action": "changeSkin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "and",
+            "bindingGroup": "and",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<AndroidGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<AndroidJoystick>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

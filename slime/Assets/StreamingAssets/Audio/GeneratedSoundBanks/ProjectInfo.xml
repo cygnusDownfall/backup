@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="soundSys" GUID="{F4EA8FA5-BD86-494A-AC3C-592FDA348705}" Generator="2022.1.4.8202"/>
+	<CacheRoot>../../../../../soundSys/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{98090980-05CC-4B23-9156-45ACC4ED456B}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="../../../../../soundSys/GeneratedSoundBanks/Android"/>
+		<Platform Name="Linux" GUID="{1E50D417-42E7-4BF0-9D5C-6C6275F238B8}" BasePlatform="Linux" BasePlatformGUID="{BD0BDF13-3125-454F-8BFD-319537169F81}" Path="../../../../../soundSys/GeneratedSoundBanks/Linux"/>
+		<Platform Name="Windows" GUID="{42456A08-46B6-48A5-938D-8ECE95669434}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../soundSys/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{6D2B5C9E-B443-4162-B770-1C83E4ABCA2D}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{A115399F-5F4E-E801-7D7C-8FAC662AA6FC}</FileHash>
+</ProjectInfo>
